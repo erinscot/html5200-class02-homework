@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Pet Adoption</title>
+  </head>
+  
+  <body>
+    <form>
+      
+      <label>Name:
+        <input type="text" name="name" required>
+      </label>
+      <label>Nickame:
+        <input type="text" name="nickname" value="Jimbo">
+      </label>
+      <label>Age:
+        <input type="text" name="age" placeholder="35">
+      </label>
+      <label>State:
+        <input type="text" name="state" autofocus>
+      </label>
+     
+      
+      <label>What type of pet?
+      <select name="pet-type">
+        <option value="">Choose</option>
+        <option value="rabbit">Rabbit</option>
+        <option value="turtle">Turtle</option>
+        <option value="dog">Dog</option>
+        <option value="car">Cat</option>
+      </select>
+      </label>
+      
+      <label>What breeds?
+        <textarea name="breeds" maxlength="5" rows="10"></textarea>
+      </label>
+      
+      <label>Indoor
+        <input type="radio" name="lifestyle" value="indoor">
+      </label>
+      <label>Outdoor
+        <input type="radio" name="lifestyle" value="outdoor"> 
+      </label>
+      
+      
+      <fieldset>
+      
+        <legend>
+          What kind of pets do you have?
+        </legend>
+    
+        <label>Dogs
+          <input type="checkbox" name="existing" value="dogs">
+        </label>
+      
+        <label> Cats
+          <input type="checkbox" name="existing" value="cats">
+        </label>
+      
+      </fieldset>
+      
+      <fieldset>
+        <legend>
+          But who are you, really?
+        </legend>
+        
+        <label>A higher being
+          <input type="checkbox" name="deep-thoughts" value="A higher being">
+        </label>
+        
+        <label>I really do not know
+          <input type="checkbox" name="deep-thoughts" value="I really do not know">
+        </label>    
+      </fieldset>
+      
+      <fieldset>
+        <legend>
+          No other questions
+        </legend>
+        <label>Okay
+          <input type="radio" name="answer" value="Okay">
+        </label>
+        <label>No!
+          <input type="radio" name="answer" value="no"> 
+        </label>
+      </fieldset>
+      
+      <label>Password:
+        <input type="password" name="password">
+      </label>
+      
+      <label>Number of dogs:
+        <input type="number" name="dog-count">
+      </label>
+      
+      <label>Your website?
+        <input type="url" name="site">
+      </label>
+      
+      <label>How much do you love dogs?
+        <input type="range" name="love" max="10" min="1">            
+      </label>
+      
+      <label>When are you picking up?
+        <input type="date" name="pickup" min="2017-01-19">
+      </label>
+      
+       <input type="submit" value="Send" name="submit">
+    </form>   
+  </body>
+</html>

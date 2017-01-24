@@ -1,0 +1,25 @@
+p {
+  padding: .5rem;
+}
+
+textarea {
+    display: block;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+	background-image: url(bg.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+
+label {
+  padding: .25rem;
+}
+
+input:invalid {
+    border-color: red;
+}
+input,
+input:valid {
+    border-color: #ccc;
+}
